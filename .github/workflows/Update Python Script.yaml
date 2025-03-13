@@ -28,7 +28,7 @@ jobs:
         run: |
           cd action_build_kona_system
           git submodule update --remote --merge
-          git commit -am "更新 Python Script " || echo "无需更新 Python Script"
+          git commit -am "更新 Python Script" || echo "无需更新 Python Script"
           git push origin main
 
   lahaina:
@@ -50,7 +50,7 @@ jobs:
         run: |
           cd action_build_lahaina_system
           git submodule update --remote --merge
-          git commit -am "更新 Python Script " || echo "无需更新 Python Script"
+          git commit -am "更新 Python Script" || echo "无需更新 Python Script"
           git push origin main
   
   liuqin:
@@ -72,7 +72,7 @@ jobs:
         run: |
           cd action_build_liuqin_system
           git submodule update --remote --merge
-          git commit -am "更新 Python Script " || echo "无需更新 Python Script"
+          git commit -am "更新 Python Script" || echo "无需更新 Python Script"
           git push origin main
 
   kalama:
@@ -94,5 +94,5 @@ jobs:
         run: |
           cd action_build_kalama_system
           git submodule update --remote --merge
-          git commit -am "更新 Python Script " || echo "无需更新 Python Script"
+          git commit -am "更新 Python Script" || echo "无需更新 Python Script"
           git push origin main
